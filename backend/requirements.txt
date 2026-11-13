@@ -1,0 +1,30 @@
+# Web API & Server
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+python-dotenv==1.0.1
+
+# Agent Orchestration & LLMs
+langgraph==0.2.60
+langgraph-checkpoint-sqlite==2.0.1
+langchain==0.3.13
+langchain-core==0.3.28
+langchain-community==0.3.13
+langchain-text-splitters==0.3.4
+langchain-groq==0.2.2
+langchain-openai==0.2.14
+
+# Vector Store & Embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# PDF Parsing & Financial Market Data
+pymupdf==1.25.1
+pdfplumber==0.11.4
+yfinance==0.2.51
+cachetools==5.5.0
+
+# Testing & Evaluation
+pytest==8.3.4
+httpx==0.28.1

@@ -1,0 +1,30 @@
+# Python & Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+
+# Databases & Local Vector Stores
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+faiss_index/
+
+# Uploaded / Raw Large PDFs (keep folder structure via .gitkeep)
+backend/data/**/*.pdf
+
+# Node & React Frontend
+frontend/node_modules/
+frontend/dist/
+.npm/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
